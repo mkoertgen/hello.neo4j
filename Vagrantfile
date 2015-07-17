@@ -33,7 +33,7 @@ Vagrant.configure("2") do |config|
     compose_version: "1.3.2",
     executable: "/opt/bin/docker-compose", 
     yml: "/vagrant/docker-compose.yml", 
-    rebuild: true, 
+    #rebuild: true, 
     project_name: "hello.neo4j",
     run: "always"  
 end
